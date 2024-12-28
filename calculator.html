@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+</head>
+<body>
+        <div class="topnav" style="background-color: rgb(111, 97, 241)ы;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;">
+        <h1>Агранский дом</h1><a class="active" href="1.html">Главная</a><a  href="calculator.html">Калькулятор</a>
+        <a href="Uslugi.html">Услуги</a><a href="AboutUs.html">О нас</a><a href="Contact.html">Контактная информация</a></div>
+</body>
+<h1>Калькулятор</h1>
+<form action="action_page.php" method="post" style="margin: auto;"></form>
+    <div class="conteiner">
+        <label for="numder"><b>Площадь(кв.м)</b></label>
+        <input type="number" placeholder="Площадь" name="uname" required>
+        <label for="number"><b>Количество этажей</b></label>
+        <input type="text" placeholder="Количество этажей" name="email">
+        <label for="text"><b>Тип фундамента</b>
+        <input type="checkbox" checked="checked" name="remember">Ленточный
+        <input type="checkbox" checked="checked" name="remember">Плиточный
+        <input type="checkbox" checked="checked" name="remember">Столбчатый
+    </label>
+        <label for="text"><b>Материал стен</b>
+            <input type="checkbox" checked="checked" name="remember">Кирпич
+            <input type="checkbox" checked="checked" name="remember">Дерево
+            <input type="checkbox" checked="checked" name="remember">Газобетон
+        </label>
+        <label for="text"><b>Тип крыши</b>
+            <input type="checkbox" checked="checked" name="remember">Плоская
+            <input type="checkbox" checked="checked" name="remember">Скатная
+        </label>
+        <label for="texs"><b>Дополнительные опции</b>
+            <input type="checkbox" checked="checked" name="remember">Балкон
+            <input type="checkbox" checked="checked" name="remember">Терраса
+            <input type="checkbox" checked="checked" name="remember">Гараж
+        </label>
+    </div>
+    <div class="conteiner" >
+        <button type="button" class="cancalbth">Рассчитать стоимость</button>
+    </div>
+    <h3>Для отправки рассчетов введите адрес электронной почты</h3>
+    <label for="adres"><b>Адрес электронной почты</b></label>
+    <input type="email" placeholder="Введите электронную почту" name="email" id=".com">
+    <div class="conteiner" >
+        <button type="button" class="cancalbth">Отправить</button>
+</form>
+</html>
